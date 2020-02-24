@@ -17,11 +17,11 @@ class StudentsController < ApplicationController
   end
 
   def show
-    @student = find_student
+    # @student = find_student
   end
   
   def edit
-    @student = find_student
+    # @student = find_student
   end
 
   def update

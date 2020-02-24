@@ -17,11 +17,11 @@ class SchoolClassesController < ApplicationController
   end
 
   def show
-    @school_class = find_school_class
+    # @school_class = find_school_class
   end
   
   def edit
-    @school_class = find_school_class
+    # @school_class = find_school_class
   end
 
   def update
