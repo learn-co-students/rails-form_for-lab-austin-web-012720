@@ -1,0 +1,7 @@
+<h3> Show </h3>
+<div>
+  <%= @school_class.title%> - <%= @school_class.room_number%>
+</div>
+<br>
+<%= link_to "Edit", edit_school_class_path%>
+<%= button_to "Index", school_classes_path, method:'get' %>
