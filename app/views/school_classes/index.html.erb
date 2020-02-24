@@ -1,0 +1,8 @@
+<h3> School Class Form</h3>
+<div>
+  <% @school_classes.each do |school_class| %>
+    <div> <%= link_to school_class.title, school_class_path(school_class) %> - <%= school_class.room_number %> </div>
+  <% end %>
+</div>
+<br>
+<%= link_to "New Class", action: 'new' %>
