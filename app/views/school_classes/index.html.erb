@@ -1,0 +1,7 @@
+<% @klasses.each do |klass| %>
+<div><%= link_to klass.title, school_class_path(klass) %></div>
+<%end%>
+<br>
+<%= link_to "Add New Class", new_school_class_path%>
+<br>
+<%= link_to "Students", students_path%>
